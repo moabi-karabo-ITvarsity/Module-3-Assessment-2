@@ -1,0 +1,646 @@
+
+html {
+    height: 100%;
+
+}
+#menu{
+    width: 1005;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+
+#menu a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#menu a:hover{
+    color: #5077bd;
+}
+
+#menu i {
+    float: left;
+    padding: 6px 0px 0px 17px;
+    color: white;
+} 
+
+#menu i:hover {
+    color:black;
+}
+
+.ask{
+    width: 800px;
+    background-color:rgba(54, 175, 169, 0.247);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: bisque;
+    padding: 10px 0px 10px 0px;
+    text-align:left;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 290px;
+    padding: 40px; 
+}
+
+form textarea {
+    border-radius: 10px 10px 10px 10px;
+}
+.ask h1{
+    text-align: center;
+}
+
+input{
+    display: inline-block;
+    width: 30%;
+    padding: 12px;
+    background-color: #fcfcfc;
+    
+    text-align: center;
+    font-size: 11px;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+.body-recipes{
+    background-image: url('images/menu-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.body-home {
+  background-image: url('images/background-01-port.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.body-meals {
+    background-image: url('images/old-rustic-wood-texture-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .body-drinks {
+    background-image: url('images/strawberryMilkshake.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+/* ========= Header ========== */
+
+.header {
+    background-color: #2196f3;
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+
+.header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 250px;
+}
+
+/* Header-home */
+
+.header-home {
+    background-color: #2196f3;
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header-home i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+} 
+
+/*///////////////////////// C0ME BACK TO test PADDING /////////////////////////////////*/
+.header-home img {
+    width: 135px;
+    padding-top:2px;
+    padding-right: 310px;
+    text-align: center;
+}
+/* About us page */
+
+.about {
+    background-color: aqua;
+    width: 900px;
+    height: auto;
+    padding: 25px;
+    margin: 25px auto;
+    margin-top: 100px;
+    padding-top: 100px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.about h2{
+    background-color: #fcfcfc;
+    color: #7ed321;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #333;
+} 
+
+.about h4{
+    color: black;
+    font-size: 17px;
+    padding: 6px;
+    margin-bottom: 20px;
+    text-align: center; 
+} 
+
+.about p {
+    color: black;
+    font-size: 14px;
+    padding: 6px;
+    margin-bottom: 20px;
+    text-align: center; 
+} 
+
+/* =========HOME PAGE========== */
+
+#home-logo-img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text img {
+    width:190px;
+    margin-left: 550px;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+    
+}
+
+/* ==== HOME PAGE MENU ==== */
+
+.home-menu-item{
+text-decoration: none;
+text-transform: uppercase; 
+
+color:white;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+border: 5px solid white;
+
+display: block;
+margin: auto;
+margin-bottom: 10px;
+width: 80%;
+}
+
+.home-menu a:hover {
+    font-size: 150%;
+}
+
+.home-menu{
+    padding-top: 150px;
+}
+
+/* ==== Meals Page ==== */
+
+#meals {
+    padding: 50px;
+}
+
+/* ==== Burger Page ==== */
+
+#burgers {
+    padding: 50px;
+}
+/* ==== Meals PAGE MENU ==== */
+.meals-list a {
+text-decoration: none;
+
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-top: -60px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+    
+}
+
+.meals-list-item i:hover {
+    color: white;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color:black;
+    margin-top: -7px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+/*================ bugers-list ======================*/
+
+.burger-list a {
+    text-decoration: none;
+    }
+    
+    .burger-list-item {
+        border: 5px solid #1a1a1a;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .burger-list-item h1 {
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-top: -75px;
+    }
+    
+    .burger-list-item i {
+        float: right;
+        color: #1a1a1a;
+        padding-right: 10px;
+        
+    }
+    
+    .burger-list-item i:hover {
+        color: white;
+    }
+    
+    .burger-list-item p {
+        font-size: 15px;
+        font-style: italic;
+        color:black;
+        margin-top: -7px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .burger-list-item img {
+        margin-left: -80px;
+        width: 60px;
+    }
+/* ============ICON============= */
+.icon{
+    width: 40px;
+    padding:10px;
+}
+/*======= adjustments for Steak-menu icon =========*/
+.icon-2 {
+    height: 50px;
+    padding-top: 25px;
+}
+
+/* ======== RECIPE PAGE ======== */
+
+#recipe {
+    padding-top: 50px;
+}
+
+/* ==== RECIPE DETAILS ==== */
+
+.recipe-details img {
+    width: 100%;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.recipe-details-steps {
+    padding-top: 20px;
+}
+
+recipe-details-steps ol {
+    padding-left: 28px;
+}
+
+/* ========= responsive layout ========== */
+
+@media only screen and (min-width: 200px) {
+    .ask {
+        width:80%;
+        margin:auto;   
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .ask {
+        width:80%;
+        margin:auto;   
+    }
+}
+     
+@media only screen and (min-width: 1000px) {
+    .ask {
+        width: 60%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+        .ask {
+            width: 40%;
+            margin:auto;
+            
+        }
+    }
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+    #burgers {
+        width: 80%;
+        margin: auto;
+    }
+
+#recipe {
+    width: 80%;
+    margin: auto;
+}
+
+
+@media only screen and (min-width: 1000px){
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+
+    #burgers {
+        width: 60%;
+        margin: auto;
+    }
+    
+#recipe {
+    width: 60%;
+    margin: auto;}
+}
+
+@media only screen and (min-width: 1500px){
+    #meals {
+        width: 40%;
+        margin: auto;
+    }
+
+    #burgers {
+        width: 40%;
+        margin: auto;
+    }
+    
+#recipe {
+    width: 40%;
+    margin: auto;}
+}
+
+@media only screen and (min-width: 720px){
+    .body-home {
+        background-image: url('images/background-01-land.png');
+
+    }
+    .body-meals {
+        background-image: url('images/old-rustic-wood-texture-background.jpg');
+
+    }
+
+    .body-drinks {
+        background-image: url('images/strawberryMilkshake.png');
+    }
+}
+/* Responsive form */
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  button[type=button] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+
+  }
+  
+  button[type=button]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=reset]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+     input[type=reset] {
+      width: 100%;
+      margin-top: 0;
+      margin-top: 5px;
+    }
+  }
+
+/*=============== THANK-PAGE =============*/
+.wrapper {
+    background-color: aqua;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto;
+    margin-top: 50px;
+    padding-top: 100px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.wrapper img {
+width: 35%;
+margin-left: 260px;
+margin-top: -70px;
+
+}
+
+.wrapper h2{
+    background-color: #fcfcfc;
+    color: #7ed321;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #333;
+} 
+
+
+@media only screen and (min-width: 600px){
+    .wrapper {
+width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper {
+width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    .wrapper {
+width: 40%;
+    }
+}
+
+/*============== H2 ==============*/
+
+@media only screen and (min-width: 600px){
+    .wrapper h2 {
+width: 80%;
+margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper h2 {
+width: 60%;
+margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    .wrapper h2 {
+width: 40%;
+margin: auto;
+    }
+}
